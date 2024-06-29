@@ -1,0 +1,8 @@
+﻿@model GeneratePdf.Invoice
+
+
+<h1>Invoice no. #@Model.Number</h1>
+
+<p>Issued date: @Model.IssuedDate.ToString("dd/MM/yyyy")</p>
+
+<p>Due date: @Model.DueDate.ToString("dd/MM/yyyy")</p>
